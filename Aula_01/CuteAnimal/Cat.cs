@@ -9,6 +9,13 @@ namespace CuteAnimal
         private Feed feed;
         private Mood mood;
 
+        // Constructor
+        public Cat (string name, int energy)
+        {
+            name = name;
+            energy = energy;
+        }
+
         // X
         public void Eat()
         {
