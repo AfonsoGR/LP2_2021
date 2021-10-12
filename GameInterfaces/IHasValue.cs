@@ -1,7 +1,7 @@
 namespace GameInterfaces
 {
-    public interface IHasValue : IEquatable
+    public interface IHasValue
     {
-        float Value{set;}
+        float Value{get; set;}
     }
 }

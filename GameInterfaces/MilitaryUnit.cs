@@ -2,6 +2,7 @@ namespace GameInterfaces
 {
     public class MilitaryUnit : Unit
     {
+        public override abstract float Value { get; set; }
         public int AttackPower { get; }
         public int XP { get; set; }
         public override int Health => base.Health + XP;

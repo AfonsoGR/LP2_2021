@@ -2,7 +2,7 @@ namespace GameInterfaces
 {
     public class SettlerUnit : Unit
     {
-        public override float Value => 5;
+        public override float Value => 10;
 
         public SettlerUnit(
             int movement, int health)
