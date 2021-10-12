@@ -2,15 +2,16 @@ namespace CityManager1
 {
     public class Building : IHasValue
     {
-        public float Value => 100;
+        public float Value {get;}
         private string _type;
         private float _area;
 
 
-        public Building (string _type, float _area)
+        public Building (string _type, float _value, float _area)
         {
             this._type = _type;
             this._area = _area;
+            Value = _value;
         }
 
         public override string ToString()
