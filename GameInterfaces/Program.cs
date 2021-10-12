@@ -2,11 +2,13 @@
 
 namespace GameInterfaces
 {
-    class Program
+    class Program : IHasValue
     {
+        value [] unit;
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
     }
 }
