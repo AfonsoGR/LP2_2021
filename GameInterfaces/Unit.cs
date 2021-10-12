@@ -4,7 +4,7 @@ namespace GameInterfaces
 {
     public abstract class Unit : IHasValue
     {
-        public abstract float Value { get; set; }
+        public abstract float Value { get; }
         public int Equals (IHasValue value);
         private int movement;
         public virtual int Health { get; set; }

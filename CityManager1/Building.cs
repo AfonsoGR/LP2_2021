@@ -1,4 +1,4 @@
-namespace GameInterfaces
+namespace CityManager1
 {
     public class Building : IHasValue
     {
