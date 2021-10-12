@@ -2,7 +2,7 @@ using System;
 
 namespace GameInterfaces
 {
-    public abstract class Unit
+    public abstract class Unit : IHasValue
     {
         private int movement;
         public virtual int Health { get; set; }
