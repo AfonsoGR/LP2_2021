@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Aula_03
+namespace GameInterfaces
 {
     class Program
     {
